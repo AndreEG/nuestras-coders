@@ -1,37 +1,91 @@
-ul li {
-	width: 300px;
-	height: 330px;
-	background-image: url('../assets/images/css_sprites.png');
-    background-repeat: no-repeat;
-    list-style: none;
+*{
+    font-family: 'Special Elite', cursive;
+}
+
+.box {
+    background: black;
+    width: 100px;
+    height: 7px;
+}
+
+section {
+    margin: auto;
+    overflow: left;
+    width: 780px;
+}
+
+h1, .box {
+    margin-left: 20px;
+}
+ul {
     margin: 0;
     padding: 0;
 }
+ul li {
+	width: 220px;
+	height: 242px;
+	background-image: url('../assets/images/css_sprites.png');
+    background-repeat: no-repeat;
+    list-style: none;
+    position: relative;
+    float: left;
+    margin: 20px;
+}
 
 ul li a {
+    box-sizing: border-box;
+    text-align: right;
+    display: block;
+    width: 220px;
+    height: 242px;
     text-decoration: none;
+    color: white;
 }
 
 ul li#dary {
-    background: url('../assets/images/css_sprites.png') -10px -10px;
+    background: url('../assets/images/css_sprites.png') -250px -10px;
 }
 
 ul li#diana {
-    background: url('../assets/images/css_sprites.png') -330px -10px;
+    background: url('../assets/images/css_sprites.png') -490px -10px;
 }
 
 ul li#lucero {
-    background: url('../assets/images/css_sprites.png') -650px -10px;
+    background: url('../assets/images/css_sprites.png') -250px -272px;
 }
 
 ul li#marilyn {
-    background: url('../assets/images/css_sprites.png') -10px -360px;
+    background: url('../assets/images/css_sprites.png') -10px -10px;
 }
 
 ul li#milagros {
-    background: url('../assets/images/css_sprites.png') -330px -360px;
+    background: url('../assets/images/css_sprites.png') -10px -534px;
 }
 
 ul li#yenai {
-    background: url('../assets/images/css_sprites.png') -650px -360px;
+    background: url('../assets/images/css_sprites.png') -490px -534px;
+}
+
+ul li#dary a:hover {
+    background: url('../assets/images/css_sprites.png') -730px -10px;
+}
+
+ul li#diana a:hover {
+    background: url('../assets/images/css_sprites.png') -10px -272px;
+}
+
+ul li#lucero a:hover {
+    background: url('../assets/images/css_sprites.png') -490px -272px;
+}
+
+ul li#marilyn a:hover {
+    background: url('../assets/images/css_sprites.png') -730px -272px;
+}
+
+ul li#milagros a:hover {
+    background: url('../assets/images/css_sprites.png') -250px -534px;
+}
+
+ul li#yenai a:hover {
+    background: url('../assets/images/css_sprites.png') -730px -534px;
 }
