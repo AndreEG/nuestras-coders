@@ -4,8 +4,8 @@
 
 .box {
     background: black;
-    width: 100px;
     height: 7px;
+    width: 100px;
 }
 
 section {
@@ -17,29 +17,33 @@ section {
 h1, .box {
     margin-left: 20px;
 }
+
 ul {
     margin: 0;
     padding: 0;
 }
+
 ul li {
-	width: 220px;
-	height: 242px;
-	background-image: url('../assets/images/css_sprites.png');
+    background-image: url('../assets/images/css_sprites.png');
     background-repeat: no-repeat;
+    float: left;
+	height: 242px;
+	width: 220px;
     list-style: none;
     position: relative;
-    float: left;
     margin: 20px;
 }
 
 ul li a {
+    outline: 1px solid red;
     box-sizing: border-box;
-    text-align: right;
-    display: block;
-    width: 220px;
-    height: 242px;
-    text-decoration: none;
     color: white;
+    display: block;
+    height: 242px;
+    width: 220px;
+    padding: 220px 10px 0 0;
+    text-align: right;
+    text-decoration: none; 
 }
 
 ul li#dary {
