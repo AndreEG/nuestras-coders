@@ -1,9 +1,9 @@
-# CLASE PRACTICA
+# CLASE PRÁCTICA
 ## Replicar el siguiente ejercicio
 ![Pagina a raplicar](assets/images/img-nuestras-coders.png "titulo")
 
 ### HTML
-Lo primero a realizar es la maquetación HTML que tendra como elemento padre a SECTION quien tendra en su interior un H1(titulo principal "Nuestras Coders") un DIV(que sera la pequeña barra negra ubicada debajo del h1) y una LIST(que tendra las inmagenes de cada coder).
+Lo primero a realizar es la maquetación HTML que tendrá como elemento padre a SECTION quien tendra en su interior un H1(titulo principal "Nuestras Coders") un DIV(que sera la pequeña barra negra ubicada debajo del h1) y una LIST(que tendra las inmagenes de cada coder).
 
 ```
 		
@@ -22,6 +22,11 @@ Lo primero a realizar es la maquetación HTML que tendra como elemento padre a S
 		
 ```
 ### CSS
-Mediante el selector universal le damos la tipografia adecuada al HTML, al DIV que hace las veces de bloque decorativo se le da el width y height adecuados para su buena visualizacion.
+Mediante el selector universal le damos la tipografía adecuada al HTML; al DIV que hace las veces de bloque decorativo se le da el width, height y background adecuados para su buena visualizacion.
 Con respecto al contenedor SECTION se le aplica clear, margin auto y un width adecuado para que los elementos que posteriormente flotaran respeten ese margen.
 A las etiquetas LI se les ha contenido una imagen tipo sprite, la cual posteriormente sera configurada una por una para que muestre lo adecuado y las cuales a su vez estaran con float left.
+En el mismo sprite se encuentran las imagenes en escala de grises que se mostraran cuando el usuario pase el mouse sobre la fotografía.
+
+### PRODUCTO FINAL
+![Pagina a raplicar](assets/images/final.jpg "titulo")
+

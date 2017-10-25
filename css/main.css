@@ -10,7 +10,7 @@
 
 section {
     margin: auto;
-    overflow: left;
+    overflow: left;/*propiedad para que respete a su papá*/
     width: 780px;
 }
 
@@ -24,26 +24,25 @@ ul {
 }
 
 ul li {
-    background-image: url('../assets/images/css_sprites.png');
-    background-repeat: no-repeat;
-    float: left;
+    background-image: url('../assets/images/css_sprites.png');/*se usa para tener imagenes de fondo*/
+    float: left;/*hacemos que los elementos de la lista es decir las imagenes floten hacia la izquierda*/
 	height: 242px;
 	width: 220px;
-    list-style: none;
+    list-style: none;/*quita las viñetas*/
     position: relative;
     margin: 20px;
 }
 
 ul li a {
-    outline: 1px solid red;
-    box-sizing: border-box;
+    /*outline: 1px solid red;*/
+    box-sizing: border-box;/*para que los cambios o adiciones no afenten su tamaño normal*/
     color: white;
-    display: block;
+    display: block;/*para que el elemento a que es inline se comporte como bloque*/
     height: 242px;
     width: 220px;
-    padding: 220px 10px 0 0;
+    padding: 220px 10px 0 0;/*para que el texto se pueda ubicar en la parte baja*/
     text-align: right;
-    text-decoration: none; 
+    text-decoration: none; /*le quita el subrayado y color propio de los enlaces*/
 }
 
 ul li#dary {
